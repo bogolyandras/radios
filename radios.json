@@ -1,0 +1,113 @@
+{
+    "title": "Radiosender Österreich",
+    "radios": [
+        {
+            "title": "Kronehit",
+            "url": "http://onair.krone.at/kronehit.mp3"
+        },
+        {
+            "title": "LoungeFM",
+            "url": "http://stream.lounge.fm/loungefm128.pls"
+        },
+        {
+            "title": "Liferadio Oberösterreich",
+            "url": "http://94.136.28.10:8000/liferadio.m3u"
+        },
+        {
+            "title": "Liferadio Tirol",
+            "url": "http://194.232.200.164:8000"
+        },
+        {
+            "title": "Superfly.fm",
+            "url": "http://stream01.superfly.fm:8080/live128"
+        },
+        {
+            "title": "Radio Energy Wien",
+            "url": "http://stream1.energy.at:8000/aacplus.m3u"
+        },
+        {
+            "title": "Radio Energy Salzburg",
+            "url": "http://stream1.energy.at:8000/sbg.m3u"
+        },
+        {
+            "title": "Radio Energy Innsbruck",
+            "url": "http://stream1.energy.at:8000/ibk.m3u"
+        },
+        {
+            "title": "Radio Austria",
+            "url": "http://server8775.streamplus.de/listen.pls "
+        },
+        {
+            "title": "Ö1",
+            "url": "https://orf-live.ors-shoutcast.at/oe1-q2a.m3u"
+        },
+        {
+            "title": "Ö3",
+            "url": "https://orf-live.ors-shoutcast.at/oe3-q2a.m3u"
+        },
+        {
+            "title": "F4",
+            "url": "https://orf-live.ors-shoutcast.at/fm4-q2a.m3u"
+        },
+        {
+            "title": "Radio Kärnten",
+            "url": "https://orf-live.ors-shoutcast.at/ktn-q2a.m3u"
+        },
+        {
+            "title": "Radio Salzburg",
+            "url": "https://orf-live.ors-shoutcast.at/sbg-q2a.m3u"
+        },
+        {
+            "title": "Radio Niederösterreich",
+            "url": "https://orf-live.ors-shoutcast.at/noe-q2a.m3u"
+        },
+        {
+            "title": "Radio Oberösterreich",
+            "url": "https://orf-live.ors-shoutcast.at/ooe-q2a.m3u"
+        },
+        {
+            "title": "Radio Steiermark",
+            "url": "https://orf-live.ors-shoutcast.at/stm-q2a.m3u.m3u"
+        },
+        {
+            "title": "Radio Tirol",
+            "url": "https://orf-live.ors-shoutcast.at/tir-q2a.m3u"
+        },
+        {
+            "title": "Radio Vorarlberg",
+            "url": "https://orf-live.ors-shoutcast.at/vbg-q2a.m3u"
+        },
+        {
+            "title": "Radio Wien",
+            "url": "https://orf-live.ors-shoutcast.at/wie-q2a.m3u"
+        },
+        {
+            "title": "Radio Burgenland",
+            "url": "https://orf-live.ors-shoutcast.at/bgl-q2a.m3u"
+        },
+        {
+            "title": "Radio Austria",
+            "url": "http://85.195.88.149:24954/"
+        },
+        {
+            "title": "Radio Helsinki",
+            "url": "https://live.helsinki.at:8088/live160.mp3"
+        },
+        {
+            "title": "Freirad Innsbruck",
+            "url": "http://stream.freirad.at:8002/live.mp3"
+        },
+        {
+            "title": "U1 Tirol",
+            "url": "http://live.u1-radio.at/;stream.mp3"
+        },
+        {
+            "title": "Radio Unzmarkt-Frauenburg",
+            "url": "http://host6.cartwall.at:7320"
+        },
+        {
+            "title": "Welle 1",
+            "url": "https://live.welle1.at:17128/stream"
+        }
+    ]
+}
