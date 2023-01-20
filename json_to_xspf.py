@@ -1,8 +1,8 @@
+import os
 import xml.etree.ElementTree as ET
 import json
 import xml.dom.minidom as md
 
-radiosJson = None
 with open('radios.json', 'r', encoding='utf-8') as f:
     radiosJson = json.load(f)
 
@@ -24,7 +24,10 @@ for child in radiosJson['radios']:
     location = ET.SubElement(track, 'location')
     location.text = child['url']
 
-FILE_NAME = 'radios.xspf'
+if not os.path.exists("generated"):
+    os.mkdir("generated")
+
+FILE_NAME = 'generated/radios.xspf'
 tree = ET.ElementTree(root)
 tree.write(FILE_NAME, encoding='utf-8')
 

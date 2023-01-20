@@ -1,0 +1,33 @@
+
+name: python xspf and m3u generation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Generate xspf and m3u files
+      run: |
+        python json_to_xspf.py
+        python json_to_m3u.py
+    - name: Store xspf and m3u files
+      uses: actions/upload-artifact@v3
+      with:
+        name: radios
+        path: ./generated/
+        retention-days: 1
